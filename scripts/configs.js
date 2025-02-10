@@ -40,13 +40,6 @@ function buildConfigURL(environment) {
     fileName = `configs-${env}.json`;
   }
  
-      
-      /* eslint-disable-next-line no-use-before-define */
-      if (getAemAuthorEnv()) {
-        // eslint-disable-next-line no-use-before-define
-        const aemContentPath = getAemContentPath();
-        return new URL(`${window.location.origin}${aemContentPath}/${fileName}`);
-      }
       const configURL = new URL(`${window.location.origin}/${fileName}`);
       return configURL;  
   } 
