@@ -290,6 +290,15 @@
                 "value": "large"
               }
             ]
+          },
+          {
+            "name": "Style",
+            "children": [
+              {
+                "name": "Coverage",
+                "value": "coverage"
+              }
+            ]
           }
         ]
       },
