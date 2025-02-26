@@ -17,6 +17,5 @@ export default async function decorate(block) {
     const description = block.querySelector('.block > div:nth-last-child(1)');
     const h1 = block.querySelector('.block > div:nth-last-child(2)');
     if(description && h1) h1.appendChild(description.querySelector('div'));
-    console.log(h1);
   }
 }
