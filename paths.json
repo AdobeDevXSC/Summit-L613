@@ -10,7 +10,8 @@
       "/content/citisignal/placeholders:/placeholders.json",
       "/content/citisignal/products/recommended-products:/products/recommended-products.json",
       "/content/citisignal/enrichment/enrichment:/enrichment/enrichment.json",
-      "/content/dam/citisignal/images/products/:/images/products/"
+      "/content/dam/citisignal/images/products/:/images/products/",
+      "/content/citisignal/fusion-spreadsheet:/fusion-spreadsheet.json"
     ],
     "includes": [
       "/content/citisignal",
